@@ -9,7 +9,7 @@ AplikasiPerpustakaan/
 
 │ ├── src/
 
-│ ├── aplikasi/ │ 
+│ ├── com.mycompany.aplikasiperpustakaan/ │ 
 
 │ └── AplikasiPerpustakaan.java │ 
 
@@ -58,7 +58,7 @@ Class `Perpustakaan` berfungsi sebagai pengelola koleksi buku di perpustakaan. C
 - `cariBuku(String judul)`: Mencari dan menampilkan buku berdasarkan judul.
 
 ### 3. Class `AplikasiPerpustakaan`
-File: `aplikasi/AplikasiPerpustakaan.java`
+File: `com.mycompany.aplikasiperpustakaan/AplikasiPerpustakaan.java`
 
 Class ini adalah main class yang berfungsi sebagai antarmuka pengguna (User Interface) untuk berinteraksi dengan aplikasi. Program ini menampilkan menu dan menerima input pengguna untuk menjalankan berbagai fungsi perpustakaan.
 
@@ -80,7 +80,8 @@ Class ini adalah main class yang berfungsi sebagai antarmuka pengguna (User Inte
    javac -d bin src/aplikasi/AplikasiPerpustakaan.java src/model/Buku.java src/model/Perpustakaan.java
 
 ## perintah menjalankan program
-java -cp bin aplikasi.AplikasiPerpustakaan
+
+`java -cp bin com.mycompany.aplikasiperpustakaan.AplikasiPerpustakaan`
 
 ## Output Program
 === Aplikasi Perpustakaan ===
