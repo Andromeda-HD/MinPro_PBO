@@ -79,9 +79,11 @@ Class ini adalah main class yang berfungsi sebagai antarmuka pengguna (User Inte
    ```bash
    javac -d bin src/aplikasi/AplikasiPerpustakaan.java src/model/Buku.java src/model/Perpustakaan.java
 
-## perintah menjalankan program
-
-`java -cp bin com.mycompany.aplikasiperpustakaan.AplikasiPerpustakaan`
+##perintah menjalankan program
+Jalankan dengan perintah berikut:
+```bash
+   java -cp bin com.mycompany.aplikasiperpustakaan.AplikasiPerpustakaan
+```
 
 ## Output Program
 === Aplikasi Perpustakaan ===
