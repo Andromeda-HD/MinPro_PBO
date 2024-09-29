@@ -100,8 +100,11 @@ Buku berhasil ditambahkan!
 Pilih menu: 2
 
 Daftar Buku di Perpustakaan:
+
 Judul Buku   : Pemrograman Java
+
 Penulis      : John Doe
+
 Penerbit     : Penerbit ABC
 
 -------------------------
