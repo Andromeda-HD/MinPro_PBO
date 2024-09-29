@@ -98,11 +98,10 @@ Buku berhasil ditambahkan!
 4. Hapus Buku
 5. Keluar
 Pilih menu: 2
-Masukkan judul buku: Pemrograman Java
 
-Masukkan nama penulis: Anton
-
-Masukkan penerbit: Penerbit ABC
-
+Daftar Buku di Perpustakaan:
+Judul Buku   : Pemrograman Java
+Penulis      : John Doe
+Penerbit     : Penerbit ABC
 
 -------------------------
