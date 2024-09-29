@@ -6,11 +6,19 @@ Aplikasi Perpustakaan adalah program sederhana berbasis Java yang memungkinkan p
 Proyek ini memiliki struktur sebagai berikut:
 
 AplikasiPerpustakaan/ 
-│ ├── src/ 
+
+│ ├── src/
+
 │ ├── aplikasi/ │ 
+
 │ └── AplikasiPerpustakaan.java │ 
-│ │ └── model/ │ ├── Buku.java 
+
+│ │ └── model/ │ 
+
+├── Buku.java 
+
 │ └── Perpustakaan.java 
+
 │ └── README.md
 
 ## Persyaratan
@@ -103,8 +111,59 @@ Daftar Buku di Perpustakaan:
 
 Judul Buku   : Pemrograman Java
 
-Penulis      : John Doe
+Penulis      : Anton
 
 Penerbit     : Penerbit ABC
+
+Jika daftar buku kosong maka output:
+
+Belum ada buku di perpustakaan.
+
+=== Aplikasi Perpustakaan ===
+1. Tambah Buku
+2. Tampilkan Semua Buku
+3. Cari Buku
+4. Hapus Buku
+5. Keluar
+Pilih menu: 3
+
+Masukkan judul buku yang ingin dicari: Pemrograman Java
+
+Buku ditemukan:
+Judul Buku   : Pemrograman Java
+
+Penulis      : Anton
+
+Penerbit     : Penerbit ABC
+
+jika buku tidak ada maka output:
+
+Buku dengan judul "Pemrograman Java" tidak ditemukan.
+
+=== Aplikasi Perpustakaan ===
+1. Tambah Buku
+2. Tampilkan Semua Buku
+3. Cari Buku
+4. Hapus Buku
+5. Keluar
+Pilih menu: 4
+
+Masukkan judul buku yang ingin dihapus: Pemrograman Java
+
+Buku dengan judul "Pemrograman Java" berhasil dihapus.
+
+Jika buku tidak ada maka output:
+
+Buku dengan judul "Pemrograman Java" tidak ditemukan.
+
+=== Aplikasi Perpustakaan ===
+1. Tambah Buku
+2. Tampilkan Semua Buku
+3. Cari Buku
+4. Hapus Buku
+5. Keluar
+Pilih menu: 5
+
+Terima kasih telah menggunakan aplikasi perpustakaan.
 
 -------------------------
