@@ -84,8 +84,11 @@ java -cp bin aplikasi.AplikasiPerpustakaan
 Pilih menu: 1
 
 Masukkan judul buku: Pemrograman Java
+
 Masukkan nama penulis: Anton
+
 Masukkan penerbit: Penerbit ABC
+
 Buku berhasil ditambahkan!
 
 === Aplikasi Perpustakaan ===
@@ -95,9 +98,11 @@ Buku berhasil ditambahkan!
 4. Hapus Buku
 5. Keluar
 Pilih menu: 2
+Masukkan judul buku: Pemrograman Java
 
-Daftar Buku di Perpustakaan:
-Judul Buku   : Pemrograman Java
-Penulis      : Anton
-Penerbit     : Penerbit ABC
+Masukkan nama penulis: Anton
+
+Masukkan penerbit: Penerbit ABC
+
+
 -------------------------
